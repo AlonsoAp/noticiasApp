@@ -5,7 +5,10 @@ import useStyles from './styles.js';
 import NewsCard from '../NewsCard/NewsCard.js'
 
 const infoCards = [
-	{color: '#f0bd48', title:'Ultimas Noticias', text: 'Noticias'}
+	{color: '#f0bd48', title:'Ultimas Noticias', text: 'Noticias'},
+	{color: '#f0bd49', title:'Disfruta de los servicios premium que tenemos para ti', text: 'Pago'},
+	{color: '#f0bd50', title: 'Tienes una cuenta ya?', text: 'Login'},
+	
 ];
 
 

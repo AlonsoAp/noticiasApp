@@ -5,8 +5,14 @@ import NewsCards from './components/NewsCards/NewsCards.js';
 
 import NewsCard from './components/NewsCard/NewsCard.js';
 
+
+
 //llave de bot
 const alanKey = '31119ce9af1b970188e7635be267f4b52e956eca572e1d8b807a3e2338fdd0dc/stage';
+
+const comercio = "https://elcomercio.pe";
+
+const pago = "http://localhost:4242";
 
 const App = () => { 
     const [newsArticles, setNewsArticles] = useState([]);
@@ -26,7 +32,14 @@ const App = () => {
                     window.open(articles[number].url,'_blank');
 
                 }
+                if(command === 'comercio'){
+                    window.open(comercio,'_blank');
+                }
+                if(command === 'pago'){
+                    window.open(pago,'_blank');
+                }
             }
+            
         })
     },[])
 
@@ -36,7 +49,8 @@ const App = () => {
                 <img src= "../elComercio.png" />
            </a>
            
-            <NewsCards articles = {newsArticles} />
+           <NewsCards articles = {newsArticles} />
+
         </div>
     );
 }
