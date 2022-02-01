@@ -8,7 +8,7 @@ import NewsCard from './components/NewsCard/NewsCard.js';
 
 
 //llave de bot
-const alanKey = '31119ce9af1b970188e7635be267f4b52e956eca572e1d8b807a3e2338fdd0dc/stage';
+const alanKey = 'dc53b3c41325a4b757fe18cfa16d5a762e956eca572e1d8b807a3e2338fdd0dc/stage';
 
 const comercio = "https://elcomercio.pe";
 
